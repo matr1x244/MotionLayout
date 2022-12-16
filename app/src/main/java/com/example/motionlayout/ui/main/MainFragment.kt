@@ -33,7 +33,7 @@ class MainFragment : Fragment() {
     }
 
     private fun startMotion() {
-        binding.car.setOnClickListener {
+        binding.red.setOnClickListener {
             Toast.makeText(requireActivity(), "starting..", Toast.LENGTH_SHORT).show()
         }
     }

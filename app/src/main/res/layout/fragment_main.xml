@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main_fragment"
+    android:background="#571CD3"
     app:layoutDescription="@xml/fragment_main_scene">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/car"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@mipmap/logo_transperent_wheel"
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_18"
+        tools:layout_editor_absoluteX="-40dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_17"
+        tools:layout_editor_absoluteX="-60dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_logo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
