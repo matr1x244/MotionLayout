@@ -16,6 +16,13 @@
         tools:layout_editor_absoluteX="-40dp" />
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/red_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_18"
+        tools:layout_editor_absoluteX="-40dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
